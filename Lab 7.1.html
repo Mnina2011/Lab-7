@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>purum</title>
+</head>
+<body>
+<script type="text/javascript">
+    alert(checkPair(5));
+    function checkPair(arg) {
+        let isNum = Number.isInteger(arg);
+        if(isNum){
+            if(arg%2===0){
+
+                return("Pair");
+            }
+            else{
+                return ("Unpaired");
+            }
+        }
+        else{
+            return ("");
+        }
+    }
+</script>
+</body>
+</html>
